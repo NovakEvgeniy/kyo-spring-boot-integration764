@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "kyo",
+      "type": "io.getkyo.spring.boot.autoconfigure.KyoProperties",
+      "sourceType": "io.getkyo.spring.boot.autoconfigure.KyoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kyo.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Включить\/выключить интеграцию Kyo.",
+      "sourceType": "io.getkyo.spring.boot.autoconfigure.KyoProperties"
+    },
+    {
+      "name": "kyo.mode",
+      "type": "java.lang.String",
+      "description": "Режим работы Kyo (например: default, prod, dev).",
+      "sourceType": "io.getkyo.spring.boot.autoconfigure.KyoProperties"
+    }
+  ],
+  "hints": []
+}

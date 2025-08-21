@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.getkyo</groupId>
+        <artifactId>kyo-spring-boot-starter</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>kyo-spring-boot-starter-thin</artifactId>
+
+    <dependencies>
+        <!-- Тянем автоконфиг -->
+        <dependency>
+            <groupId>io.getkyo</groupId>
+            <artifactId>kyo-spring-boot-autoconfigure</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- Kyo Core -->
+        <dependency>
+            <groupId>io.getkyo</groupId>
+            <artifactId>kyo-core_3</artifactId>
+            <version>1.0-RC1</version>
+        </dependency>
+    </dependencies>
+</project>
+
