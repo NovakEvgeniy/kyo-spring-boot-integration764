@@ -1,48 +1,48 @@
 # kyo-spring-boot-integration764
 
-Этот репозиторий содержит два связанных приложения: kyo-spring-boot-starter (далее — *Starter*) и kyo-spring-boot-test (далее — *Test*).
-Благодаря ссылке на *Starter*, приложение *Test* может применять в своей среде Java Spring Boot возможности функционального языка.
+This repository contains two related applications: kyo-spring-boot-starter (hereafter — *Starter*) and kyo-spring-boot-test (hereafter — *Test*).  
+Thanks to its reference to *Starter*, the *Test* application can use functional language features within the Java Spring Boot environment.  
+
 ---
 
 ## 1. 📦 *Starter*
 
-### 1.1 Назначение
-- Заключённый в задаче [kyo#764](https://github.com/getkyo/kyo/issues/764), проект *Starter* предназначен для интеграции Kyo и Spring Boot.  
-- Starter создан как канонический (промышленный) вариант двухмодульного родительского проекта.
+### 1.1 Purpose
+- As outlined in [kyo#764](https://github.com/getkyo/kyo/issues/764), the *Starter* project is intended to integrate Kyo with Spring Boot.  
+- The Starter was created as the canonical (production-grade) version of a two-module parent project.
 
-### 1.2 Основные возможности
-- Упрощает конфигурацию: автоматически поднимает необходимые бины и подключает Kyo (возможности функционального языка) в контекст Spring Boot.  
-- Подключение к *Test* через `pom.xml` (достаточно добавить зависимость).  
-- Использует стандартный подход Spring Boot Starter’ов.  
+### 1.2 Key Features
+- Simplifies configuration: automatically registers the required beans and integrates Kyo (functional language capabilities) into the Spring Boot context.  
+- Connection to *Test* through `pom.xml` (just add the dependency).  
+- Follows the standard Spring Boot Starter approach.  
 
-### 1.3 Как собрать
+### 1.3 How to Build
 ```bash
 cd kyo-spring-boot-starter
 mvn clean install
 ```
+## 2. 🧪 Test
 
-## 2. 🧪 *Test*
+### 2.1 Purpose
+*Test* is a Spring Boot application designed to verify the correct behavior of the Starter.
 
-### 2.1 Назначение
-*Test* — это тестовое Spring Boot приложение, предназначенное для проверки корректности работы *Starter*’а.
+### 2.2 Key Features
+- Demonstrates connecting the *Starter* to *Test* via dependencies.
+- *Test* is a minimal/educational application created specifically to validate the functionality and interaction of the *Starter*.
+- Using *Test* provides the simplest yet complete way to verify the *Starter*. Alternatively, a lightweight real-world application can be used.
+- Ensures proper integration of the Kyo library into Spring Boot.
 
-### 2.2 Основные возможности
-- Демонстрация подключения *Starter*’а к *Test* через зависимости.
-- *Test* — это учебное/минимальное приложение, сделанное специально для проверки работы и взаимодействия со *Starter*’м.
-Применение *Test* позволяет проверить *Starter*  максимально простым, но полноценным способом. Вместо *Test* допустимо применение несложных реальных приложений.
-- Проверка корректности интеграции библиотеки Kyo в Spring Boot.
-
-### 2.3 Как собрать и запустить
+### 2.3 How to Build and Run
 ```bash
 cd kyo-spring-boot-test
 mvn clean install
 mvn spring-boot:run
 ```
-После запуска *Test*’а в консоли появятся стандартные сообщения Spring Boot и логи, подтверждающие успешную интеграцию Kyo.
+After launching Test, the console will display standard Spring Boot startup messages and logs confirming successful integration of Kyo.
 
-## Author
-Evgeniy Novak  
-📧 novakevgeniy1953@gmail.com  
+Author
+Evgeniy Novak
+📧 novakevgeniy1953@gmail.com
 📅 21.08.2025
 
 
