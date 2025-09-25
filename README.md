@@ -9,11 +9,11 @@ Thanks to its reference to *Starter*, the *Test* application can use functional 
 
 ### 1.1 Purpose
 - As outlined in [kyo#764](https://github.com/getkyo/kyo/issues/764), the *Starter* project is intended to integrate Kyo with Spring Boot.  
-- The Starter was created as the canonical (production-grade) version of a two-module parent project.
+- The *Starter* was created as the canonical (production-grade) version of a two-module parent project.
 
 ### 1.2 Key Features
 - Simplifies configuration: automatically registers the required beans and integrates Kyo (functional language capabilities) into the Spring Boot context.  
-- Connection to *Test* through `pom.xml` (just add the dependency).  
+- *Starter* is referenced by *Test* through the `pom.xml` dependency.
 - Follows the standard Spring Boot Starter approach.  
 
 ### 1.3 How to Build
@@ -24,11 +24,11 @@ mvn clean install
 ## 2. 🧪 Test
 
 ### 2.1 Purpose
-*Test* is a Spring Boot application designed to verify the correct behavior of the Starter.
+*Test* is a Spring Boot application designed to verify the correct behavior of the *Starter*.
 
 ### 2.2 Key Features
-- Demonstrates connecting the *Starter* to *Test* via dependencies.
-- *Test* is a minimal/educational application created specifically to validate the functionality and interaction of the *Starter*.
+- *Test* refers to *Starter* via the `pom.xml` dependency.
+- *Test* is a minimal/educational application created specifically to validate the functionality of the *Starter*.
 - Using *Test* provides the simplest yet complete way to verify the *Starter*. Alternatively, a lightweight real-world application can be used.
 - Ensures proper integration of the Kyo library into Spring Boot.
 
@@ -38,7 +38,7 @@ cd kyo-spring-boot-test
 mvn clean install
 mvn spring-boot:run
 ```
-After launching Test, the console will display standard Spring Boot startup messages and logs confirming successful integration of Kyo.
+After launching *Test*, the console will display standard Spring Boot startup messages and logs confirming successful integration of Kyo.
 
 Author
 Evgeniy Novak
