@@ -40,10 +40,10 @@ mvn spring-boot:run
 ```
 After launching *Test*, the console will display standard Spring Boot startup messages and logs confirming successful integration of Kyo.
 
-Author
-Evgeniy Novak
-📧 novakevgeniy1953@gmail.com
-📅 21.08.2025
+## Author
+- Evgeniy Novak
+- 📧 novakevgeniy1953@gmail.com
+- 📅 21.08.2025
 
 
 
