@@ -1,7 +1,8 @@
 # kyo-spring-boot-integration764
 
-This repository contains two related applications: kyo-spring-boot-starter (hereafter — *Starter*) and kyo-spring-boot-test (hereafter — *Test*).  
-Thanks to its reference to *Starter*, the *Test* application can use functional language features within the Java Spring Boot environment.  
+- The project demonstrates the creation of a classic industrial-grade starter for implementing the functional language KYO within a Spring Boot application.
+- This repository contains two related applications: kyo-spring-boot-starter (hereafter — *Starter*) and kyo-spring-boot-test (hereafter — *Test*).  
+- Thanks to its reference to *Starter*, the *Test* application can use functional language features within the Java Spring Boot environment.  
 
 ---
 
