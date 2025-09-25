@@ -1,6 +1,6 @@
 # kyo-spring-boot-integration764
 
-````markdown
+
 # Kyo Spring Boot Integration
 
 Этот репозиторий содержит два связанных проекта:
@@ -46,7 +46,7 @@ mvn spring-boot:run
 
 После запуска *Test*’а в консоли появятся стандартные сообщения Spring Boot и логи, подтверждающие успешную интеграцию Kyo.
 
-````
+
 
 
 
