@@ -38,8 +38,13 @@ cd kyo-spring-boot-test
 mvn clean install
 mvn spring-boot:run
 ```
-
 После запуска *Test*’а в консоли появятся стандартные сообщения Spring Boot и логи, подтверждающие успешную интеграцию Kyo.
+
+## Author
+Evgeniy Novak  
+📧 novakevgeniy1953@gmail.com  
+📅 21.08.2025
+
 
 
 
